@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sdll.antfooder.dao.ShopcarMapper" >
+  <resultMap id="BaseResultMap" type="com.sdll.antfooder.pojo.Shopcar" >
+    <id column="shop_id" property="shopId" jdbcType="CHAR" />
+    <result column="user_id" property="userId" jdbcType="CHAR" />
+<!--     <result column="food_id" property="foodId" jdbcType="CHAR" /> -->
+    <result column="food_num" property="foodNum" jdbcType="INTEGER" />
+    <result column="total_money" property="totalMoney" jdbcType="DOUBLE" />
+    <result column="food_status" property="foodStatus" jdbcType="INTEGER" />
+    <result column="shop_other" property="shopOther" jdbcType="VARCHAR" />
+    <association column="food_id" property="foodId" jdbcType="CHAR" select="com.sdll.antfooder.dao.FoodMapper.selectByPrimaryKey"></association>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    shop_id, user_id, food_id, food_num, total_money, food_status, shop_other
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from shopcar
+    where shop_id = #{shopId,jdbcType=CHAR}
+  </select>
+  <!-- 查询购物车中的商品 -->
+  <select id="selectByUserId" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from shopcar
+    where user_id = #{userId,jdbcType=CHAR} and food_status = 1
+  </select>
+  <!-- 查询购物车中是否有该商品 -->
+  <select id="selectByUserIdAndFoodId" resultMap="BaseResultMap" parameterType="hashmap" >
+    select 
+    <include refid="Base_Column_List" />
+    from shopcar
+    where user_id = #{userId,jdbcType=CHAR} and food_id = #{foodId.foodId,jdbcType=CHAR} and food_status = 1
+  </select>
+  
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from shopcar
+    where shop_id = #{shopId,jdbcType=CHAR}
+  </delete>
+  
+  <!-- 自动生成uuid -->
+<!--   <selectKey keyProperty="shopId" resultType="String" order="BEFORE">  
+    select  replace(uuid(),'-','')   from dual  
+  </selectKey> -->
+  
+  <insert id="insert" parameterType="com.sdll.antfooder.pojo.Shopcar" >
+    insert into shopcar (shop_id, user_id, food_id, 
+      food_num, total_money, food_status, 
+      shop_other)
+    values (#{shopId,jdbcType=CHAR}, #{userId,jdbcType=CHAR}, #{foodId.foodId,jdbcType=CHAR}, 
+      #{foodNum,jdbcType=INTEGER}, #{totalMoney,jdbcType=DOUBLE}, #{foodStatus,jdbcType=INTEGER}, 
+      #{shopOther,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.sdll.antfooder.pojo.Shopcar" >
+    insert into shopcar
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="shopId != null" >
+        shop_id,
+      </if>
+      <if test="userId != null" >
+        user_id,
+      </if>
+      <if test="foodId != null" >
+        food_id,
+      </if>
+      <if test="foodNum != null" >
+        food_num,
+      </if>
+      <if test="totalMoney != null" >
+        total_money,
+      </if>
+      <if test="foodStatus != null" >
+        food_status,
+      </if>
+      <if test="shopOther != null" >
+        shop_other,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="shopId != null" >
+        #{shopId,jdbcType=CHAR},
+      </if>
+      <if test="userId != null" >
+        #{userId,jdbcType=CHAR},
+      </if>
+      <if test="foodId != null" >
+        #{foodId.foodId,jdbcType=CHAR},
+      </if>
+      <if test="foodNum != null" >
+        #{foodNum,jdbcType=INTEGER},
+      </if>
+      <if test="totalMoney != null" >
+        #{totalMoney,jdbcType=DOUBLE},
+      </if>
+      <if test="foodStatus != null" >
+        #{foodStatus,jdbcType=INTEGER},
+      </if>
+      <if test="shopOther != null" >
+        #{shopOther,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.sdll.antfooder.pojo.Shopcar" >
+    update shopcar
+    <set >
+      <if test="userId != null" >
+        user_id = #{userId,jdbcType=CHAR},
+      </if>
+      <if test="foodId != null" >
+        food_id = #{foodId.foodId,jdbcType=CHAR},
+      </if>
+      <if test="foodNum != null" >
+        food_num = #{foodNum,jdbcType=INTEGER},
+      </if>
+      <if test="totalMoney != null" >
+        total_money = #{totalMoney,jdbcType=DOUBLE},
+      </if>
+      <if test="foodStatus != null" >
+        food_status = #{foodStatus,jdbcType=INTEGER},
+      </if>
+      <if test="shopOther != null" >
+        shop_other = #{shopOther,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where shop_id = #{shopId,jdbcType=CHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.sdll.antfooder.pojo.Shopcar" >
+    update shopcar
+    set user_id = #{userId,jdbcType=CHAR},
+      food_id = #{foodId.foodId,jdbcType=CHAR},
+      food_num = #{foodNum,jdbcType=INTEGER},
+      total_money = #{totalMoney,jdbcType=DOUBLE},
+      food_status = #{foodStatus,jdbcType=INTEGER},
+      shop_other = #{shopOther,jdbcType=VARCHAR}
+    where shop_id = #{shopId,jdbcType=CHAR}
+  </update>
+</mapper>

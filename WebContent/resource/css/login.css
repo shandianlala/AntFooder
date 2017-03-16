@@ -1,0 +1,59 @@
+#login_content{
+	width: 360px;
+	height: 155px;
+	/*border: 1px solid black;*/
+	margin: 0px auto;
+}
+
+
+
+#login_content h2{
+	color: #e60012;
+	font-size: 30px;
+	font-weight: normal;
+	
+}
+#login_content p{
+	margin-left: ;
+}
+
+.login_content_input{
+	width: 310px;
+	height: 26px;
+
+}
+.check_input{
+	width: 150px;
+	height: 26px;
+}
+#check_code{
+	height: 30px;
+	width: 145px;
+	/* border: 1px solid black; */
+	float: right;
+}
+
+#login_content p b{
+	font-size: 14px;
+	line-height: 31px;
+	color: #6a3301;
+}
+
+#login_submit{
+	width: 82px;
+	height: 31px;
+	color: #fff;
+	background-color: red;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 133px;
+}
+
+#msg{
+	margin-left: 50px;
+	color: red;
+	display: none;
+	font-weight: bold;
+	font-size: 14px;
+}
+

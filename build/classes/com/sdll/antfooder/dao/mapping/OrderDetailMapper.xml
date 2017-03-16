@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sdll.antfooder.dao.OrderDetailMapper" >
+  <resultMap id="BaseResultMap" type="com.sdll.antfooder.pojo.OrderDetail" >
+    <id column="detail_id" property="detailId" jdbcType="CHAR" />
+    <result column="order_id" property="orderId" jdbcType="CHAR" />
+    <result column="book_id" property="bookId" jdbcType="CHAR" />
+    <result column="buy_num" property="buyNum" jdbcType="INTEGER" />
+    <result column="restatus" property="restatus" jdbcType="CHAR" />
+    <result column="user_msg" property="userMsg" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    detail_id, order_id, book_id, buy_num, restatus, user_msg
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from orderdetail
+    where detail_id = #{detailId,jdbcType=CHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from orderdetail
+    where detail_id = #{detailId,jdbcType=CHAR}
+  </delete>
+  <insert id="insert" parameterType="com.sdll.antfooder.pojo.OrderDetail" >
+    insert into orderdetail (detail_id, order_id, book_id, 
+      buy_num, restatus, user_msg
+      )
+    values (#{detailId,jdbcType=CHAR}, #{orderId,jdbcType=CHAR}, #{bookId,jdbcType=CHAR}, 
+      #{buyNum,jdbcType=INTEGER}, #{restatus,jdbcType=CHAR}, #{userMsg,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.sdll.antfooder.pojo.OrderDetail" >
+    insert into orderdetail
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="detailId != null" >
+        detail_id,
+      </if>
+      <if test="orderId != null" >
+        order_id,
+      </if>
+      <if test="bookId != null" >
+        book_id,
+      </if>
+      <if test="buyNum != null" >
+        buy_num,
+      </if>
+      <if test="restatus != null" >
+        restatus,
+      </if>
+      <if test="userMsg != null" >
+        user_msg,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="detailId != null" >
+        #{detailId,jdbcType=CHAR},
+      </if>
+      <if test="orderId != null" >
+        #{orderId,jdbcType=CHAR},
+      </if>
+      <if test="bookId != null" >
+        #{bookId,jdbcType=CHAR},
+      </if>
+      <if test="buyNum != null" >
+        #{buyNum,jdbcType=INTEGER},
+      </if>
+      <if test="restatus != null" >
+        #{restatus,jdbcType=CHAR},
+      </if>
+      <if test="userMsg != null" >
+        #{userMsg,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.sdll.antfooder.pojo.OrderDetail" >
+    update orderdetail
+    <set >
+      <if test="orderId != null" >
+        order_id = #{orderId,jdbcType=CHAR},
+      </if>
+      <if test="bookId != null" >
+        book_id = #{bookId,jdbcType=CHAR},
+      </if>
+      <if test="buyNum != null" >
+        buy_num = #{buyNum,jdbcType=INTEGER},
+      </if>
+      <if test="restatus != null" >
+        restatus = #{restatus,jdbcType=CHAR},
+      </if>
+      <if test="userMsg != null" >
+        user_msg = #{userMsg,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where detail_id = #{detailId,jdbcType=CHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.sdll.antfooder.pojo.OrderDetail" >
+    update orderdetail
+    set order_id = #{orderId,jdbcType=CHAR},
+      book_id = #{bookId,jdbcType=CHAR},
+      buy_num = #{buyNum,jdbcType=INTEGER},
+      restatus = #{restatus,jdbcType=CHAR},
+      user_msg = #{userMsg,jdbcType=VARCHAR}
+    where detail_id = #{detailId,jdbcType=CHAR}
+  </update>
+</mapper>
