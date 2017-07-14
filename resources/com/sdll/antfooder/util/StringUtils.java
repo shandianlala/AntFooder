@@ -1,11 +1,4 @@
-/**
- * Title: StringHelper.java
- * Copyright: Copyright (C) 2002 - 2014 GuangDong Eshore Techonlogy Co. Ltd
- * Company: 广东亿迅科技有限公司 IT系统事业部
- * @author: linhongzheng
- * @version: khala 1.0.0
- * @time:  2014年7月25日 下午1:52:09 
- */
+
 package com.sdll.antfooder.util;
 
 import java.io.IOException;
