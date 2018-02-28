@@ -28,7 +28,7 @@
 #login_user span{
 	/*border: 1px solid black;*/
 	height: 22px;
-	
+
 }
 
 .register_login{
@@ -51,7 +51,7 @@
 }
 
 #login_out:hover{
-	background-color: rosybrown;	
+	background-color: rosybrown;
 }
 
 #menulist{
@@ -63,9 +63,9 @@
 }
 #menulist ul{
 	list-style: none;
-	
+
 	margin-top: 6px;
-	
+
 }
 #menulist ul li{
 	float: left;
@@ -91,15 +91,15 @@
 }
 #menu_2:hover{
 	background-color: darkred;
-	
+
 }
 #menu_3:hover{
 	background-color: darkred;
-	
+
 }
 #menu_4:hover{
 	background-color: darkred;
-	
+
 }
 
 /*
@@ -111,18 +111,18 @@
 	width: 100%;
 	/*border: 1px solid blue;*/
 	display: block;
-	
+
 }
 #slide_img{
-	
+
 }
 
 #slide_bar{
 	width: 200px;
 	height: 24px;
 	/*border: 1px solid black;*/
-	
-	
+
+
 }
 
 /*左滑*/
@@ -162,7 +162,7 @@
 	height: 100px;
 	/*border: 1px solid black;*/
 	margin-left: 756px;
-	
+
 }
 
 #footer_right ul li{
@@ -180,7 +180,7 @@
 	font-size: 14px;
 	border: 1;
 	display: block;
-	
+
 }
 
 
@@ -227,7 +227,7 @@
 	font-size: 14px;
 	color: #6a3301;
 	margin-right: 0px;
-	
+
 }
 
 #footer_right p a{
@@ -251,7 +251,7 @@
 }
 
 /*
- *购物车样式 
+ *购物车样式
  * */
 #cart-list{
 	position: absolute;
@@ -301,7 +301,7 @@
 	height: 50px;
 	font-size: 13px;
 	text-decoration: none;
-/*	border: 1px solid #ccc*/
+	/*	border: 1px solid #ccc*/
 	margin-left: 3px;
 	display: block;
 }
@@ -342,13 +342,17 @@
 #newaddress :hover{
 	opacity: 0.7;
 }
+
+
+
+
 #car_price{
 	width: 170px;
 	height: 80px;
 	/*border: 1px solid black;*/
 	margin-left: 4px;
 	margin-top: 4px;
-	
+
 }
 .price{
 	width: 160px;
@@ -400,9 +404,9 @@
 }
 #food_info{
 	width: 170px;
-	height: 65px;
-	float: left;
-	margin-top: 40px;
+	/* height: 65px; */
+	/* float: left; */
+	/* margin-top: 40px; */
 }
 #food_info img{
 	width: 69px;
@@ -421,9 +425,9 @@
 #food_tool{
 	width: 170px;
 	height: 28px;
-/*	border: 1px solid black;*/
+	/*	border: 1px solid black;*/
 	margin-top: 5px;
-	
+
 }
 .change_num{
 	width: 16px;
@@ -444,7 +448,7 @@
 	color: #6a3301;
 }
 #total_price{
-	margin-left: 45px;
+	margin-left: 15px;
 }
 
 
@@ -458,22 +462,36 @@
 }
 
 /*
- *新增地址遮罩层 
+ *新增地址遮罩层
  * */
- .add_address {
- 	position: absolute;
- 	top: 0px;
- 	filter: alpha(opacity=60);
- 	background-color: #777;
- 	z-index: 1002;
- 	left: 0px;
- 	opacity: 0.5;
- 	-moz-opacity: 0.5;
- 	height: 100%;
- 	width: 100%;
- 	display: none;
- }
- 
+.add_address {
+	position: absolute;
+	top: 0px;
+	filter: alpha(opacity=60);
+	background-color: #777;
+	z-index: 1;
+	left: 0px;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	height: 100%;
+	width: 100%;
+	display: none;
+}
+
+/* 新增地址div */
+.add_new_address{
+	position: absolute;
+	width:700px;
+	height:393px;
+	border:1px solid black;
+	display:none;
+	z-index: 1000;
+	background-color:white;
+	left:342px;
+}
+
+
+
 #food_menu_list{
 	width: 253px;
 	height: 500px;
@@ -499,7 +517,7 @@
 
 #ul_food_content{
 	list-style: none;
-	
+
 	width: 193px;
 }
 #ul_food_content li{
@@ -544,7 +562,7 @@
 .open_close{
 	width: 15px;
 	height: 15px;
-/*	border: 1px solid black;*/
+	/*	border: 1px solid black;*/
 	display: block;
 	float: right;
 	padding-right: 5px;
@@ -556,7 +574,7 @@
 /*hot  1
   morning 2
   lunch 3
-  
+
   * * */
 #sale_div_1{
 	width: 193px;
@@ -616,7 +634,7 @@
 #open_bg1{
 	width: 15px;
 	height: 15px;
-/*	border: 1px solid black;*/
+	/*	border: 1px solid black;*/
 	display: block;
 	float: right;
 	padding-right: 5px;
@@ -659,55 +677,60 @@
 	margin-left: 10px;
 	margin-top: 30px;
 }
+.menufood img:hover{
+	opacity: 0.6;
+}
+
+
 .title{
 	text-align: center;
 	text-decoration: none;
 	display: block;
-    font-size: inherit;
-    color: #6a3301;
-    margin-bottom: 7px;
-    height: 18px;
-    width: 180px;
-    line-height: 18px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+	font-size: inherit;
+	color: #6a3301;
+	margin-bottom: 7px;
+	height: 18px;
+	width: 180px;
+	line-height: 18px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .foodprice{
 	width: 40%;
-    float: left;
+	float: left;
 	color: #e60012;
-    font-size: 20px;
-    font-weight: bold;
+	font-size: 20px;
+	font-weight: bold;
 	margin-left: 8px;
 }
 .btn{
 	float: left;
 	color: #fff;
-    border: 0;
-    padding: 0;
-    font-size: 13px;
-    display: block;
-    background: url(../img/buttons.png) -114px -22px;
-    background-repeat: no-repeat;
-    height: 22px;
-    line-height: 22px;
-    text-align: center;
-    width: 74px;
-    margin-top: 6px;
-    margin-left: 5px;
+	border: 0;
+	padding: 0;
+	font-size: 13px;
+	display: block;
+	background: url(../img/buttons.png) -114px -22px;
+	background-repeat: no-repeat;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	width: 74px;
+	margin-top: 6px;
+	margin-left: 5px;
 }
 
 .btn:hover{
 	opacity: 0.55;
 	outline-color: initial;
-    outline-style: initial;
-    outline-width: 0px;
+	outline-style: initial;
+	outline-width: 0px;
 }
 
 #gotobuy :HOVER{
 	opacity: 0.6;
-	
+
 }
 
 

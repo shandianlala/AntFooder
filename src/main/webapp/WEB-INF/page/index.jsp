@@ -1,14 +1,31 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-   <%@include file="../common/common.jsp" %>
-   <%@include file="../common/common-ui.jsp" %>
+   <%@include file="../common/common-me.jsp" %>
+   <%@include file="../common/common-ui-me.jsp" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
 		<meta charset="utf-8" />
 		<script type="text/javascript" src="${basePath }/resource/js/jquery.luara.0.0.1.min.js" ></script>
+		
+		<script type="text/html" id="showcartmpl">
+				<h2>购物车详情</h2>
+						{{#key}}
+						<div id="food_info">
+							<img src="${basePath}/{{foodId.foodPhoto}}"/>
+							<div id="food_title">{{foodId.foodName}}</div>
+							<div id="food_tool">
+								<button id="clear_num" class="change_num" onclick="addToShopCar('{{foodId.foodId}}',{{foodId.foodPrice}},0)" ></button>
+								<button id="sub_num" class="change_num" onclick="addToShopCar('{{foodId.foodId}}',{{foodId.foodPrice}},-1)" ></button>
+								<span> {{foodNum}} </span>
+								<button id="add_num" class="change_num" onclick="addToShopCar('{{foodId.foodId}}',{{foodId.foodPrice}},1)" ></button>
+								<span id="total_price">{{totalMoney}}元</span>
+							</div>
+						</div>
+						{{/key}}
+		</script>
 	</head>
-	<body>
+	<body onload="shopcarList('${LOGIN_USER.userId}')">
 		<div id="header">
 			<div id="logoimg" class="header_class">
 				<a href="${basePath }/"><img src="${basePath }/resource/img/logoImg.png"/></a>
@@ -34,11 +51,13 @@
 			</div>
 		</div>
 		<!--新增地址遮罩层实现-->
-		<div id="addaddress" class="add_address">
-			<div id="ss" style="background-color: white;">
-				<p>asdfasdfasdf</p>
-			</div>
+		<div id="addaddress" class="add_address" onclick="addAddress()">
 			
+			
+		</div>
+		<div id="div_add_address"  class="add_new_address" >
+				<p>asdfasdfasdf</p>
+				<input type="text"/>
 		</div>
 		
 		<div id="content">
@@ -129,7 +148,7 @@
 						<i id="address_new"></i>
 					</a>
 					<div id="newaddress">
-						<a href="javascript:void(0)" onclick="addAddress()"><span>添加新地址</span></a>
+						<a href="javascript:void(0)" onclick="addAddress(1)"><span>添加新地址</span></a>
 					</div>
 					<div id="car_price">
 						<div id="cart_total_price" class="price">
@@ -137,7 +156,7 @@
 								餐品总额 : 
 							</div>
 							<div class="price_item">
-								<span>31.5</span> 元
+								<span id="totalmoneys"></span> 元
 							</div>
 						</div>
 						
@@ -154,24 +173,14 @@
 								应付金额: 
 							</div>
 							<div class="price_item">
-								<span>31.5</span> 元
+								<span id="totalmoneysAddExpress"></span> 元
 							</div>
 						</div>
 					</div>
 					<!--结算按钮-->
 					<input type="button" id="calculate_price" value="" />
 					<div id="food_list">
-						<h2>购物车详情</h2>
-						<div id="food_info">
-							<img src="resource/img/排骨套餐.jpg"/>
-							<div id="food_title">排骨饮料套餐</div>
-							<div id="food_tool">
-								<button id="clear_num" class="change_num"></button>
-								<button id="sub_num" class="change_num"></button><span> 4 </span>
-								<button id="add_num" class="change_num"></button>
-								<span id="total_price">86元</span>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 				<!--关闭购物车-->
@@ -190,7 +199,7 @@
 				<p id="about">
 					<a href="#">关于蚂蚁食客</a>|
 					<a href="#">法律条款</a>|
-					<a href="#">联系我们</a>
+					<a href="${basePath }/ztree">联系我们,toztree</a>
 				</p>
 				<p id="copright">Copyright2012 Kungfu 粤ICP备13066649号-1</p>
 				<p id="chrome">建议使用google chrome3以上，IE9以上，360极速浏览器7.0以上，浏览器访问本网站</p>
@@ -199,14 +208,77 @@
 		</div>
 		
 	<script>
-		var $j = $.noConflict();
+//		var $j = $.noConflict();
 		
-		function addAddress(){
-			$j("#addaddress").css("height", $j(document).height());
-			$j("#addaddress").css('display','block');
+		function addAddress(m){
+			if(m==1){
+				/* 开启遮罩层 */
+				$j("#addaddress").css("height", $j(document).height());
+				$j("#addaddress").css('display','block');
+				$j("#div_add_address").fadeIn(1000);
+			}else{
+				/* 关闭遮罩层 */
+				$j("#addaddress").hide();
+				$j("#div_add_address").hide();
+			}
 		}
 		
-		
+		//新增商品到购物车,更改购物车商品的数量
+		function addToShopCar(foodId , foodPrice , oper){
+			if(!checkBlank(foodId)){
+				return;
+			}
+			$j.ajax({
+				type : "post",
+				url : "${basePath}/shopcar/addToShopCar",
+				dataType : "json",
+				data : {
+					"foodId" : foodId,
+					"foodPrice" : foodPrice,
+					"oper" : oper
+				},
+				success : function(data){
+					if(data.success){
+						shopcarList('1');
+					}else{
+						
+					}
+				},
+				error : function(data){
+					
+					
+				}
+			});
+		}
+
+		//shopcarList,购物车列表展示
+		function shopcarList(userId){
+			if(!checkBlank(userId)){
+				return ;
+			}
+			$j.ajax({
+				type : "POST",
+				url : "${basePath}/shopcar/shopcarList",
+				dataType : "json",
+				success : function(data){
+					var totalMoneys = 0;
+					for(var i=0;i<data.length;i++){
+						totalMoneys = totalMoneys +data[i].totalMoney;
+						data[i].totalMoney = toDecimal2(data[i].totalMoney);
+					}
+					totalMoneys = toDecimal2(totalMoneys);
+					var listShopcar = {};
+					listShopcar.key = data;
+					var html=Mustache.render($j("#showcartmpl").html(), listShopcar);
+					$j("#food_list").html(html);
+					$j("#totalmoneys").text(totalMoneys);
+					$j("#totalmoneysAddExpress").text(totalMoneys);
+					//$j("#food_list").css('display','none');
+					slideCar(1);
+				}
+			});
+		}
+	
 		$j(function() {
 			<!--调用Luara-->
 			$j(".slideimg").luara({
@@ -216,36 +288,17 @@
 				selected: "seleted",
 				deriction: "left"
 			});
-	       // 初始化菜单
-/*	        var data = new Date();
-	        var s = "2014/03/23 12:33:33";
-	        var d = Date.parse(s);
-	        alert(d);
-	        alert(data);
-	        if (data.getHours()>9&&data.getHours()<13) {
-	        	alert("上午");
-	        	
-	        }*/
+		   // 初始化菜单
+		/*	        var data = new Date();
+		    var s = "2014/03/23 12:33:33";
+		    var d = Date.parse(s);
+		    alert(d);
+		    alert(data);
+		    if (data.getHours()>9&&data.getHours()<13) {
+		    	alert("上午");
+		    	
+		    }*/
 		});
-		function slideCar(m){
-			switch (m){
-				case 1:
-				/*展示购物车*/
-					$j("#opencart").css('display','none');
-					/*$("#cart_inner").css('display','block');*/
-					$j("#cart_inner").slideDown(1500);
-					$j("#closecart").css('display','block');
-					break;
-				case 0:
-				/*关闭购物车*/
-					$j("#opencart").css('display','block');
-					$j("#cart_inner").css('display','none');
-					$j("#closecart").css('display','none');
-					break;
-				default:
-					break;
-			}
-		}
 		
 		/*左边菜单栏的打开和关闭*/
 		function openClose(m){
@@ -253,9 +306,9 @@
 				if (i==m) {
 					var disp = $j("#sale_div_"+i).css('display')+"";
 					if(disp=="block"){
-						$j("#open_bg"+i).css('background','url(resource/img/bgs.png)-174px -127px');
+						$j("#open_bg"+i).css('background','url(${basePath }/resource/img/bgs.png)-174px -127px');
 					}else{
-						$j("#open_bg"+i).css('background','url(resource/img/bgs.png)-159px -127px');
+						$j("#open_bg"+i).css('background','url(${basePath }/resource/img/bgs.png)-159px -127px');
 					}
 					$j("#sale_div_"+i).slideToggle(500);
 				}else{
@@ -265,15 +318,13 @@
 						if(disp=="block"){
 							$j("#sale_div_"+i).slideToggle(500);
 						}
-						$j("#open_bg"+i).css('background','url(resource/img/bgs.png)-174px -127px');
+						$j("#open_bg"+i).css('background','url(${basePath }/resource/img/bgs.png)-174px -127px');
 						//$j("#sale_div_"+i).css('display','none');
 					}
 					
 				}
 			}
 		}
-		
-		
 	</script>
 	</body>
 </html>

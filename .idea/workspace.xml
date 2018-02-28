@@ -7,268 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4a19007-7b06-470c-9a32-45c1c531a004" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/0a97478215bd96f057cfaf7ac2910f60_Q弹鱼饼.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/20150326151205_6797鲜辣排骨饭.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/20150326151210_3926辣骨套饭.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/20150326151226_8944辣骨饮料套餐.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/9a12a3d1580393b25113fa678e5c060c_20150326151308_1417鲜辣排骨菜.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/cloud.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/con_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/left_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/lg_box.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/login_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/卤肉套饭.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/卤肉汤套.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/外婆菜.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/小吃.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/排骨鸡腿双人套.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/新品-早餐 鲜香肉酱蒸米粉.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/新枸杞红枣露.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/新枸杞红枣露_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/新枸杞红枣露_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/新枸杞红枣露（小）.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/新香干炒肉双人套.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/猪肉包+小红枣露.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/花卷+小红枣露.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/茄子汤套.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/蒸米粉+小红枣露_0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/蒸米粉白粥卤蛋.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/酸菜卤肉.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/酸菜卤肉饭.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/香滑蒸蛋.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/鱼香茄子饭.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/鲜辣排骨饭.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/AntFooder_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/AntFooder_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_collections_google_collections_1_0_rc2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_7_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_11_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_9_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_1_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AntFooder.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/antfooder.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/.jsdtscope" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/aspectjrt-1.7.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/aspectjweaver-1.7.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/c3p0-0.9.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-io-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-lang3-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/guava-r07.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jackson-annotations-2.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jackson-core-2.3.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jackson-databind-2.3.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jandex-1.1.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/javassist-3.18.1-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/javax.mail-1.5.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jstl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mybatis-3.2.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.apache.commons.lang_2.4.0.v201005080502.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-aop-3.2.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-aspects-3.2.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-beans-3.2.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-context-3.2.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-core-3.2.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-expression-3.2.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-jdbc-3.2.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-jms-3.2.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-orm-3.2.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-tx-3.2.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-web-3.2.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-webmvc-3.2.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/lib/standard.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/controller/MainController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/controller/MenuController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/controller/ShopcarController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/controller/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/dao/AddressMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/dao/CommentMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/dao/FoodMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/dao/MenuMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/dao/OrderDetailMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/dao/OrderMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/dao/ShopcarMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/dao/UserMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/pojo/Address.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/pojo/Comment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/pojo/Food.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/pojo/Menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/pojo/Order.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/pojo/OrderDetail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/pojo/Shopcar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/pojo/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/service/IFoodService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/service/IMenuService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/service/IShopcarService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/service/IUserSercvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/service/impl/FoodServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/service/impl/MenuServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/service/impl/ShopcarServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/service/impl/UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/util/Conts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/util/ExecResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/util/InformationTool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/util/RandomValidateCodeGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/util/StringUtils$GroupHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/util/StringUtils$GroupsHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/util/StringUtils$Hander.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/util/StringUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/conf/applicationContext-spring.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/dao/mapping/AddressMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/dao/mapping/CommentMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/dao/mapping/FoodMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/dao/mapping/MenuMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/dao/mapping/OrderDetailMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/dao/mapping/OrderMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/dao/mapping/ShopcarMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/dao/mapping/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/conf/jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/conf/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/spring-mvc.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/common/common-ui.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/common/common-ui.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/common/common.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/common/common.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/page/detail.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/detail.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/page/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/page/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/login.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/css/buttons.css" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/buttons.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/css/index.css" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/index.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/css/login.css" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/login.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/PC小焦点图1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/PC小焦点图1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/PC小焦点图2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/PC小焦点图2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/PC小焦点图3.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/PC小焦点图3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/PC首页轮播_2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/PC首页轮播_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/PC首页轮播图_1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/PC首页轮播图_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/bgs.png" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/bgs.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/buttons.png" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/buttons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/logoImg.png" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/logoImg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/pc首页轮播图3.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/pc首页轮播图3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/pc首页轮播图4.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/pc首页轮播图4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/排骨套餐.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/排骨套餐.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/排骨套饭.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/排骨套饭.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/排骨饮料套餐.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/排骨饮料套餐.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/香汁排骨含汤套餐1.0.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/香汁排骨含汤套餐1.0.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/香汁排骨套饭.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/香汁排骨套饭.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/香汁排骨菜.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/香汁排骨菜.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/img/香辣焗翅.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resource/img/香辣焗翅.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/js/common-check.js" afterPath="$PROJECT_DIR$/src/main/webapp/resource/js/common-check.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/js/jquery-1.8.3.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/resource/js/jquery-1.8.3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/js/jquery.luara.0.0.1.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/resource/js/jquery.luara.0.0.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/js/main.js" afterPath="$PROJECT_DIR$/src/main/webapp/resource/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/resource/js/mustache.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/resource/js/mustache.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/dao/mapping/AddressMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/dao/mapping/AddressMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/dao/mapping/CommentMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/dao/mapping/CommentMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/dao/mapping/FoodMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/dao/mapping/FoodMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/dao/mapping/MenuMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/dao/mapping/MenuMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/dao/mapping/OrderDetailMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/dao/mapping/OrderDetailMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/dao/mapping/OrderMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/dao/mapping/OrderMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/dao/mapping/ShopcarMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/dao/mapping/ShopcarMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/classes/com/sdll/antfooder/dao/mapping/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/dao/mapping/UserMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/classes/conf/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/classes/conf/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/conf/mybatis-config.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/AntFooder-servlet.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/controller/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/controller/MainController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/controller/MenuController.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/controller/MenuController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/controller/ShopcarController.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/controller/ShopcarController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/controller/UserController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/dao/AddressMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/dao/AddressMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/dao/CommentMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/dao/CommentMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/dao/FoodMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/dao/FoodMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/dao/MenuMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/dao/MenuMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/dao/OrderDetailMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/dao/OrderDetailMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/dao/OrderMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/dao/OrderMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/dao/ShopcarMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/dao/ShopcarMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/dao/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/dao/UserMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/pojo/Address.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/pojo/Address.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/pojo/Comment.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/pojo/Comment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/pojo/Food.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/pojo/Food.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/pojo/Menu.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/pojo/Menu.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/pojo/Order.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/pojo/Order.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/pojo/OrderDetail.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/pojo/OrderDetail.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/pojo/Shopcar.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/pojo/Shopcar.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/pojo/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/pojo/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/service/IFoodService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/service/IFoodService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/service/IMenuService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/service/IMenuService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/service/IShopcarService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/service/IShopcarService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/service/IUserSercvice.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/service/IUserSercvice.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/service/impl/FoodServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/service/impl/FoodServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/service/impl/MenuServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/service/impl/MenuServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/service/impl/ShopcarServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/service/impl/ShopcarServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/service/impl/UserServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/util/Conts.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/util/Conts.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/util/ExecResult.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/util/ExecResult.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/util/InformationTool.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/util/InformationTool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/util/RandomValidateCodeGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/util/RandomValidateCodeGenerator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/com/sdll/antfooder/util/StringUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/sdll/antfooder/util/StringUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/conf/applicationContext-spring.xml" afterPath="$PROJECT_DIR$/src/main/resources/conf/applicationContext-spring.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/common/common-ui.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/common/common-ui.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/common/common.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/common/common.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/detail.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/detail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resource/css/index.css" afterPath="$PROJECT_DIR$/src/main/webapp/resource/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resource/js/main.js" afterPath="$PROJECT_DIR$/src/main/webapp/resource/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="AntFooder.iml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -281,34 +31,9 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1778">
+            <state relative-caret-position="3111">
               <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="antfooder.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/antfooder.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="326" column="0" lean-forward="true" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext-spring.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/applicationContext-spring.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="34" column="59" lean-forward="false" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-              <folding>
-                <element signature="e#1212#1228#0" expanded="true" />
-                <element signature="e#1266#1279#0" expanded="true" />
-                <element signature="e#1313#1327#0" expanded="true" />
-                <element signature="e#1365#1383#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -326,8 +51,8 @@
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sdll/antfooder/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="41" column="46" lean-forward="false" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+            <state relative-caret-position="602">
+              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -335,21 +60,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/css/login.css">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="-136">
+              <caret line="211" column="8" lean-forward="false" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sdll/antfooder/service/impl/UserServiceImpl.java">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="3935">
+              <caret line="657" column="34" lean-forward="false" selection-start-line="657" selection-start-column="34" selection-end-line="657" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common-ui-me.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/common/common-ui-me.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menuShopcar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/js/menuShopcar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common-ui.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/common/common-ui.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/common/common.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -375,6 +140,10 @@
       <find>log4j</find>
       <find>sdll</find>
       <find>sdll-blog</find>
+      <find>ztree</find>
+      <find>luara</find>
+      <find>bgs.png</find>
+      <find>images/bgs.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -398,6 +167,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resource/css/login.css" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/antfooder.sql" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/common/common.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/common/common-ui-me.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resource/css/index.css" />
       </list>
     </option>
   </component>
@@ -586,6 +359,15 @@
               <item name="AntFooder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="antfooder" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AntFooder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AntFooder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -627,7 +409,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AntFooder" type="b2602c69:ProjectViewProjectNode" />
@@ -637,6 +419,24 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AntFooder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AntFooder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AntFooder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AntFooder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -644,8 +444,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AntFooder.iml" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42531356" />
@@ -656,10 +456,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WorkSpaceIdea\AntFooder\src\main\webapp\resource\js" />
+      <recent name="F:\WorkSpaceIdea\AntFooder\src\main\webapp\WEB-INF\page" />
+      <recent name="F:\WorkSpaceIdea\AntFooder\src\main\webapp\WEB-INF\common" />
+      <recent name="F:\WorkSpaceIdea\AntFooder\src\main\webapp\resource\css" />
       <recent name="F:\WorkSpaceIdea\AntFooder\src\main\webapp\resource\img" />
-      <recent name="F:\WorkSpaceIdea\AntFooder" />
-      <recent name="F:\WorkSpaceIdea\AntFooder\src\main\webapp\WEB-INF" />
-      <recent name="F:\WorkSpaceIdea\AntFooder\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\WorkSpaceIdea\AntFooder\src\main\webapp\WEB-INF" />
@@ -683,6 +484,7 @@
   <component name="RunManager" selected="Tomcat Server.Tomcat AntFooder">
     <configuration name="Tomcat AntFooder" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.41 idea-antfooder" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <deployment>
         <artifact name="AntFooder:war exploded">
           <settings>
@@ -855,19 +657,19 @@
       <workItem from="1519724546976" duration="1109000" />
       <workItem from="1519731448394" duration="4054000" />
       <workItem from="1519780174929" duration="4358000" />
-      <workItem from="1519784579036" duration="4788000" />
+      <workItem from="1519784579036" duration="11824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18112000" />
+    <option name="totallyTimeSpent" value="25148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -883,8 +685,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32608697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32608697" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.49707174" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -910,100 +712,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdll/antfooder/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3094">
-          <caret line="182" column="19" lean-forward="false" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdll/antfooder/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3604">
-          <caret line="212" column="16" lean-forward="false" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdll/antfooder/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/AntFooder-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdll/antfooder/util/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar!/org/apache/commons/lang3/CharUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sdll/antfooder/util/InformationTool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1251,44 +959,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/css/buttons.css">
+    <entry file="file://$PROJECT_DIR$/antfooder.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2346">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdll/antfooder/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="41" column="46" lean-forward="false" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="443">
+          <caret line="326" column="0" lean-forward="true" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1778">
+        <state relative-caret-position="3111">
           <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/antfooder.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/detail.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="326" column="0" lean-forward="true" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
+        <state relative-caret-position="-5192">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/js/jquery.luara.0.0.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1047">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/js/common-check.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-452">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/css/buttons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25082">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-452">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sdll/antfooder/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/common/common-me.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/common/common.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/common/page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/common/common-ui.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/common/common-ui-me.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/js/menuShopcar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="211" column="8" lean-forward="false" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resource/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3935">
+          <caret line="657" column="34" lean-forward="false" selection-start-line="657" selection-start-column="34" selection-end-line="657" selection-end-column="34" />
           <folding />
         </state>
       </provider>

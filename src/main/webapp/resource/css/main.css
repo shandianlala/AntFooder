@@ -1,0 +1,376 @@
+.red{
+	color:#F00;
+}
+.green{
+	color:#1EC64D;
+}
+.up-bgcolor{
+	background-color: #14D292; border-color: #10AB79;
+}
+.up-bgcolor:hover{
+	background-color: #10AB79;
+}
+.up-user-w{
+	width:100px;
+}
+.up-table .icon-star{
+	color:#ffbe40;
+}
+.newitem-title{
+	text-align: center; margin-top:50px; margin-bottom: 20px;
+}
+.stepli{
+	width: 33%; margin: 0 !important;
+}
+.up-border-right{
+	border-right: 1px solid #DDD;
+}
+.up-padding15{
+	padding: 15px;
+}
+.up-padding{
+	padding:0 10px !important;
+}
+.up-padding10{
+	padding:10px 0 !important;
+}
+.up-paddingl50{
+	padding-left: 50px;
+}
+.up-margin0{
+	margin: 0 !important;
+}
+.up-marginl0{
+	margin-left: 0 !important;
+}
+.up-padding0{
+	padding: 0 !important;
+}
+.up-margint30{
+	margin-top:30px;
+}
+.up-margint15{
+	margin-top:15px;
+}
+.up-marginb0{
+	margin-bottom:0px;
+}
+.up-marginb50{
+	margin-bottom:50px;
+}
+.border_btm_d{
+	border-bottom: 1px dashed #ddd;
+}
+.up-model-size{
+	height:200px !important;
+}
+.up-icon-color{
+	color:#969696;
+}
+.up-border{
+	border: 1px solid #DDD;
+}
+.up-border-btm0{
+	border-bottom: 0px !important;
+}
+/* 工作台样式  */
+.up-gallery-t{
+	line-height: 48px;
+}
+.up-gallery-t h4{
+	color: #0189B7; line-height: 40px;
+}
+.up-gallery-date ul{
+	list-style: none; padding: 0;
+}
+.up-gallery-date ul li{
+	float: left; margin: 0 15px; font-size: 12px !important;
+}
+.up-gallery-date ul li span{ font-weight: 700;}
+.up-header{
+	border: 1px solid #ddd; padding: 0px; margin-bottom:20px;
+}
+.up-header-pro{
+	padding: 10px; background-color: #FAFAFA;
+}
+.up-header-grade{
+	width: 60px; height: 60px; display: block; float: left; margin-right: 20px; line-height: 60px; text-align: center; font-size: 36px; color: #FFF; border-radius: 10px; background-color: #32D59E;
+}
+.up-header-advance{
+	float: left; line-height: 29px; font-size: 16px;
+}
+.up-header-advance span{
+	 color: #018AB7;font-weight: 700;
+}
+.up-header-advance ul li span{
+	color: #000;
+}
+.up-grade-percent{
+	font-size: 12px;
+    line-height: 18px;
+}
+.up-header .up-flex{
+	float: left; margin-top:5px;
+}
+.up-col-list{
+	margin:15px 0; font-size: 13px;
+}
+.up-col-list span{
+	font-weight: 700; color: #018AB7; padding-left: 5px;
+}
+.up-header .up-flex .up-btn-default{
+	border-color: #1EB0E3;
+}
+.up-header .up-flex .up-btn{
+	padding: 6px 21px; margin-top: 5px;
+}
+.up-header .up-flex .up-selbg{
+	padding: 6px 16px; background-color: #1EB0E3; color:#FFF;
+}
+.up-header .avatar{
+	width: 82px; height: 82px; border-radius:41px
+}
+.item-column{
+	color:#818181; display: block; padding: 5px;
+}
+.item-column:hover{
+	color:#06c; text-decoration: none; background: #FCFCFC;
+}
+.item-column span{
+	display: block; font-size: 13px;
+}
+.item-column span.icon-folder ,
+.item-column span.icon-angle-circled-down,
+.item-column span.icon-chart-area,
+.item-column span.icon-warning{
+	font-size: 20px; color: #C9C9C9;
+}
+.item-column .item-num{
+	font-size: 16px;
+}
+.item-column .item-num:hover{
+	color:#06c;
+}
+
+/* 创建项目样式   */
+.up-products{
+	
+}
+.up-products span{
+	height:30px; line-height: 30px;
+}
+.up-products .icon-trash{
+	font-size: 14px; cursor: pointer;
+}
+.up-products .icon-pencil{
+	font-size: 14px; cursor: pointer;
+}
+.up-relation .icon-doc-add{
+	font-size: 18px; margin-top:5px; cursor: pointer;
+}
+.moder-search{
+	width: 98%; position: relative;
+}
+.moder-search .icon-search-1{
+	position: absolute; top: 3px; right: 5px;font-size: 18px; cursor: pointer;
+}
+.moder-list{
+	width: 98%; padding: 0; margin: 0;
+}
+.moder-list ul{
+	padding: 0; margin: 5px; list-style: none;
+}
+.moder-list ul li{
+	height: 30px; line-height: 30px; cursor: pointer;
+}
+.moder-list ul li:hover{
+	background-color: #FCFCFC;
+}
+.moder-list ul li .icon-ok{
+	font-size: 14px;
+}
+.up-step-btn{
+	margin-right: 20px; padding: 6px 45px;
+}
+.up-item-preview{
+	height: 31px; line-height: 31px; font-weight: 700;
+}
+/* 项目管理样式   */
+.up-navtask{
+	width: 100%; height: 48px; line-height: 48px; padding: 0; list-style: none;
+}
+.up-nav-tabtask{ height: 50px; border-bottom: 2px solid #DDDDDD; }
+.up-nav-tabtask li{font-size: 14px; font-weight: 700; color: #0198CD; float: left;
+ 	
+}
+.up-nav-tabtask li.up-active{ border-bottom: 2px solid #0198CD;}
+.up-nav-tabtask li.up-active a{
+	 color: #0099CB;
+}
+.up-nav-tabtask li a{
+	text-decoration: none; border-right: 1px solid #D4D4D4; padding: 0 20px; color: #5B5B5B;
+}
+.up-table-header{
+	width: 100%; height: 42px; line-height: 42px; font-weight: 700; border: 1px solid #DDDDDD;background-color: #F5F5F5;
+}
+.up-table-tablelist{
+	width: 100%; line-height: 40px; margin-top: 10px; border: 1px solid #DDDDDD;
+}
+.up-table-tablelist:hover{
+	border: 1px solid #61C8E9
+}
+.up-table-tablelist .up-table-text{
+	border-bottom: 1px solid #EBEBEB; background-color: #F9F9F9;
+}
+.up-table-tablelist .integrity{
+	color:#D9D9D9;
+}
+.up-table-tablelist .integrity-full{
+	color:#FFA530;
+}
+.second_title ul{
+	padding:0; list-style: none;
+}
+.second_title ul li{
+	font-size: 16px;
+}
+.second_title ul li span{
+	font-size: 700;
+}
+.up-version{
+	margin: 20px 0 5px; line-height: 20px;
+}
+.up-version-progress{
+	height:10px; margin-top:5px; padding: 0;
+}
+.up-version-progress-bar{
+	background-color: #14D292;
+}
+.up-version-button .up-btn{
+	padding: 3px 12px;
+}
+.up-version-button .edit{
+	background-color: #14D292;
+}
+.up-table .icon-ok{
+	color:#1EC64D;
+}
+.up-table td a{
+	text-decoration: none;
+}
+.up-grade span{
+	font-size: 700; font-size: 14px;
+}
+.up-grade ul{
+	list-style: none; padding: 0; margin-top: 15px;
+}
+.up-grade ul li{
+	width: 36px; height: 36px; line-height: 36px; text-align: center; color: #FFF; font-size: 18px;font-weight: 700;
+} 
+.up-grade ul li.gradeactive{
+	width: 72px; height: 72px; line-height: 72px; font-size: 36px;
+}
+.up-grade ul li.up-grade-a{
+	background-color: #32D59E;
+}
+.up-grade ul li.up-grade-b{
+	background-color: #31BBEA;
+}
+.up-grade ul li.up-grade-c{
+	background-color: #ECBC10;
+}
+.up-grade ul li.up-grade-d{
+	background-color: #FF6F93;
+}
+.up-quality ul{
+	list-style: none; padding: 0;
+}
+.up-quality ul li{
+	padding: 15px 0; margin: 10px 0; border-bottom: 1px dashed #CDCDCD;
+}
+.up-quality ul li .up-quality-h{
+	font-size: 14px;
+}
+.up-quality ul li .up-quality-h span{
+	font-size: 36px; color: #1EB0E3; padding-left: 8px;
+}
+.up-quality ul li .up-quality-l span{
+	padding-right:15px; line-height: 30px;
+}
+
+/*  项目详情页样式      */
+.up-details-bor{
+	border-bottom: 1px dashed #CDCDCD ; position: relative;
+}
+.product-select{
+	position: absolute; top: 0; right: 0; width: 155px; height: 28px; border: none; box-shadow:none;
+}
+.up-step-btn{
+	height: 40px;
+}
+.up-step-btn a{
+	padding-right: 10px; line-height: 40px;
+}
+.up-gallery-title{
+	padding: 0 10px; font-size: 16px; font-weight: 700;
+}
+.up-gallery-btn{
+	padding: 2px 10px; margin:0 3px; border-radius: 2px; line-height: 20px; color: #FFF;
+}
+.up-gallery-develop{
+	 background-color: #F99F0D;
+}
+.up-gallery-free{
+	background-color: #93C73E;
+}
+.up-liflex{
+	
+}
+.up-liflex ul{
+	list-style: none;
+}
+.up-liflex ul li{
+	float: left; padding-right:60px; font-size: 13px; line-height: 24px;
+}
+.up-liflex ul li span{
+	color:#000;
+}
+.up-btn-details{
+	margin-top:5px;
+}
+.up-btn-details .up-btn{
+	padding: 8px 20px;
+}
+.up-managemengt-chart{
+	
+}
+.up-chart-title{
+	width:100% ; padding: 12px; background-color: #FCFCFC; position: relative;
+}
+.up-chart-select{
+	position: absolute; top: 5px; right: 10px;
+}
+.up-mana-xl{
+	font-size: 18px; cursor: pointer;
+}
+
+/* 我的任务    */
+.up-header-avatar img{
+	width: 60px; height: 60px; border-radius: 30px;
+} 
+.up-thumbs{
+	height: 50px; line-height: 50px;
+}
+.up-thumbs span{
+	display: inline-block; padding:6px 10px; line-height: 30px; cursor: pointer; background: #0099CB; border-radius:22px; margin-left:5px;
+}
+.up-thumbs span .icon-thumbs-up-alt{
+	font-size: 18px; color: #FFF;
+}
+
+
+
+
+
+
+

@@ -1,73 +1,32 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-   <%@include file="../common/common.jsp" %>
-   <%@include file="../common/common-ui.jsp" %>
+   <%@include file="../common/common-me.jsp" %>
+   <%@include file="../common/common-ui-me.jsp" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
 		<meta charset="utf-8" />
 		<script type="text/javascript">
 		
-			function addToShopCar(foodId , foodPrice , oper){
-				if(!checkBlank(foodId)){
-					return;
-				}
-				$j.ajax({
-					type : "post",
-					url : "${basePath}/shopcar/addToShopCar",
-					dataType : "json",
-					data : {
-						"foodId" : foodId,
-						"foodPrice" : foodPrice,
-						"oper" : oper
-					},
-					success : function(data){
-						if(data.success){
-							shopcarList();
-						}else{
-							
-						}
-					},
-					error : function(data){
-						
-						
-					}
-				});
-			}
 			
-			//shopcarList,购物车列表展示
-			function shopcarList(){
-				$j.ajax({
-					type : "POST",
-					url : "${basePath}/shopcar/shopcarList",
-					dataType : "json",
-					success : function(data){
-						var listShopcar = {};
-						listShopcar.key = data;
-						var html=Mustache.render($j("#showcartmpl").html(), listShopcar);
-						$j("#food_list").html(html);
-						//$j("#food_list").css('display','none');
-						slideCar(1);
-					}
-				});
-			}
 		</script>
 		
-		<script type="text/html" id="showcartmpl">
+				<script type="text/html" id="showcartmpl">
 						<h2>购物车详情</h2>
 						{{#key}}
 						<div id="food_info">
-							<img src="${basePath}{{foodId.foodPhoto}}"/>
+							<img src="${basePath}/{{foodId.foodPhoto}}"/>
 							<div id="food_title">{{foodId.foodName}}</div>
 							<div id="food_tool">
-								<button id="clear_num" class="change_num" ></button>
-								<button id="sub_num" class="change_num"></button><span> {{foodNum}} </span>
-								<button id="add_num" class="change_num"></button>
-								<span id="total_price">86元</span>
+								<button id="clear_num" class="change_num" onclick="addToShopCar('{{foodId.foodId}}',{{foodId.foodPrice}},0)" ></button>
+								<button id="sub_num" class="change_num" onclick="addToShopCar('{{foodId.foodId}}',{{foodId.foodPrice}},-1)" ></button>
+								<span> {{foodNum}} </span>
+								<button id="add_num" class="change_num" onclick="addToShopCar('{{foodId.foodId}}',{{foodId.foodPrice}},1)" ></button>
+								<span id="total_price">{{totalMoney}}元</span>
 							</div>
 						</div>
 						{{/key}}
-		</script>
+				</script>
 		
 	</head>
 	<body onload="shopcarList()">
@@ -96,12 +55,14 @@
 			</div>
 		</div>
 		<!--新增地址遮罩层实现-->
-		<div id="addaddress" class="add_address">
-			<div id="ss" style="background-color: white;">
+		<div id="addadress" class="add_address">
+			<div id="add_new_address" >
 				<p>asdfasdfasdf</p>
 			</div>
-			
 		</div>
+		
+		
+		
 		
 		<div id="content">
 			<!--滑动图片-->
@@ -182,7 +143,7 @@
 								餐品总额 : 
 							</div>
 							<div class="price_item">
-								<span>31.5</span> 元
+								<span id="totalmoneys"></span> 元
 							</div>
 						</div>
 						
@@ -199,28 +160,20 @@
 								应付金额: 
 							</div>
 							<div class="price_item">
-								<span>31.5</span> 元
+								<span id="totalmoneysAddExpress"></span> 元
 							</div>
 						</div>
 					</div>
-					<!--结算按钮-->
-					<input type="button" id="calculate_price" value="" />
-			
-					<!-- <div id="food_list">
+					<!-- 结算按钮 -->
+					<input type="button" id="calculate_price" value="" /> 
+					<div id="food_list">
 						
 							
-					</div> -->
-				</div>
-				
-				<div id="food_list">
+					</div> 
 						
-							
 				</div>
-				
-
-				
 				<!--关闭购物车-->
-				<a id="closecart"  href="javascript:void(0)" style="display: none;" onclick="slideCar(0)"></a>	
+				<a id="closecart"  href="javascript:void(0)" style="display: none;" onclick="slideCar(0)"></a>
 			</div>
 		</div>
 		
@@ -228,7 +181,7 @@
 			<ul >
 				<c:forEach var="foodList" items="${foodList }">
 					<li class="menufood">
-					<img src="${basePath }/${foodList.foodPhoto}"/>
+					<a href="javascript:void(0)"><img src="${basePath }/${foodList.foodPhoto}"/></a>
 					<a href="#" class="title">${foodList.foodName}</a>
 					<div class="foodprice">
 						<sub >￥</sub>
@@ -261,59 +214,7 @@
 		</div>
 		
 	<script>
-		var $j = $.noConflict();
-		
-		function addAddress(){
-			$j("#addaddress").css("height", $j(document).height());
-			$j("#addaddress").css('display','block');
-		}
-		
-		
-		function slideCar(m){
-			switch (m){
-				case 1:
-				/*展示购物车*/
-					$j("#opencart").css('display','none');
-					/*$("#cart_inner").css('display','block');*/
-					$j("#cart_inner").slideDown(1500);
-					$j("#closecart").css('display','block');
-					break;
-				case 0:
-				/*关闭购物车*/
-					$j("#opencart").css('display','block');
-					$j("#cart_inner").css('display','none');
-					$j("#closecart").css('display','none');
-					break;
-				default:
-					break;
-			}
-		}
-		
-		/*左边菜单栏的打开和关闭*/
-		function openClose(m){
-			for (var i=1;i<5;i++) {
-				if (i==m) {
-					var disp = $j("#sale_div_"+i).css('display')+"";
-					if(disp=="block"){
-						$j("#open_bg"+i).css('background','url(${basePath }/resource/img/bgs.png)-174px -127px');
-					}else{
-						$j("#open_bg"+i).css('background','url(${basePath }/resource/img/bgs.png)-159px -127px');
-					}
-					$j("#sale_div_"+i).slideToggle(500);
-				}else{
-					/*关掉其他几个div*/
-					if(i!=1&&m!=1){
-						var disp = $j("#sale_div_"+i).css('display')+"";
-						if(disp=="block"){
-							$j("#sale_div_"+i).slideToggle(500);
-						}
-						$j("#open_bg"+i).css('background','url(${basePath }/resource/img/bgs.png)-174px -127px');
-						//$j("#sale_div_"+i).css('display','none');
-					}
-					
-				}
-			}
-		}
+		/*菜单  */
 		
 		
 	</script>
