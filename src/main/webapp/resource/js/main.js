@@ -4,13 +4,13 @@
 
         //jq uplan
         "jquery": [
-            basePath+"/resources/js/jquery.min",
+            basePath+"/resource/js/jquery.min",
             "http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min"
         ],
-        "uplan": basePath+"/resources/js/uplan.min",
+        "uplan": basePath+"/resource/js/uplan.min",
 
         //自定义脚步
-        "common": basePath+"/resources/js/common",
+        "common": basePath+"/resource/js/common",
         "plug": basePath+"/resources/js/plug",
 
         //滚动条
@@ -40,7 +40,7 @@
     },
     map: {
         '*': {
-            'css': basePath+'/resources/lib/js/css.min.js'
+            'css': basePath+'/resource/lib/js/css.min.js'
         }
     },
     //不支持AMD规范使用shim

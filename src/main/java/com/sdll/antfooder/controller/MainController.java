@@ -37,12 +37,34 @@ public class MainController {
 	private IMenuService menuService;
 	
 	@RequestMapping(value={"","/main/toHome.do"})
-	public ModelAndView toIndex(HttpSession session){
+	public ModelAndView toIndex(HttpSession session, HttpServletRequest request){
 		ModelAndView view = new ModelAndView("/index");
+		String ip  = request.getRemoteAddr();
+		String host = request.getRemoteHost();
+		System.out.println(ip +"-------"+host);
+		User user = (User) session.getAttribute(Conts.USER_SESSION_KEY);
+		if (user!=null&&"2".equals(user.getUserStatus())) {
+			// 1:普通用户  2：管理员
+			view.setViewName("/mainPage");
+			return view;
+		}
 		List<Menu> menuList = menuService.listMenu();
 		InformationTool.getInformation(view, menuList);
 		return view;
 	}
+	
+	@RequestMapping("/toBackStage")
+	public ModelAndView toBackStage(){
+		ModelAndView view = new ModelAndView("/bglogin");
+		return view;
+	}
+	
+	@RequestMapping("/ztree")
+	public String ztree(){
+		
+		return "ztree";
+	}
+	
 	
 	@RequestMapping("/validate")
 	public void validate(HttpSession session , HttpServletRequest request , HttpServletResponse response) throws IOException{

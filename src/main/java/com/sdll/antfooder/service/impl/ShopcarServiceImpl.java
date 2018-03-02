@@ -30,8 +30,7 @@ public class ShopcarServiceImpl implements IShopcarService {
 	public int insertShopcar(String foodId ,String userId , Double foodPrice , Integer oper) {
 		// TODO Auto-generated method stub
 		int row = 0 ;
-		Food food = new Food();
-		food.setFoodId(foodId);
+		Food food = foodMapper.selectByPrimaryKey(foodId);
 		//查询该用户购物车表中是否有这个商品
 		HashMap map = new HashMap();
 		map.put("userId", userId);
@@ -40,17 +39,25 @@ public class ShopcarServiceImpl implements IShopcarService {
 		if (shopcar != null) {
 			switch (oper) {
 			case -1:
-				shopcar.setFoodNum(shopcar.getFoodNum()-1);
+				if (shopcar.getFoodNum()==1) {
+					shopcar.setFoodNum(0);
+					shopcar.setFoodStatus(Conts.STATE_DELETE);
+				}else {
+					shopcar.setFoodNum(shopcar.getFoodNum()-1);
+				}
 				break;
 			case 0:
 				shopcar.setFoodNum(0);
+				shopcar.setFoodStatus(Conts.STATE_DELETE);
 				break;
 			case 1:
 				shopcar.setFoodNum(shopcar.getFoodNum()+1);
+				shopcar.setFoodStatus(Conts.STATE_OK);
 				break;
 			default:
 				return row;
 			}
+			shopcar.setTotalMoney(food.getFoodPrice()*shopcar.getFoodNum());
 			row = shopcarMapper.updateByPrimaryKey(shopcar);
 			return row;
 		}
@@ -58,6 +65,7 @@ public class ShopcarServiceImpl implements IShopcarService {
 		shopcar.setFoodId(food);
 		shopcar.setUserId(userId);
 		shopcar.setFoodNum(1);
+		shopcar.setTotalMoney(food.getFoodPrice()*shopcar.getFoodNum());
 		shopcar.setShopId(UUID.randomUUID().toString().replace("-", ""));
 		shopcar.setFoodStatus(Conts.STATE_OK);
 		row = shopcarMapper.insert(shopcar);
@@ -67,6 +75,7 @@ public class ShopcarServiceImpl implements IShopcarService {
 	@Override
 	public List<Shopcar> listShopcar(String userId) {
 		// TODO Auto-generated method stub
+		
 		return shopcarMapper.selectByUserId(userId);
 	}
 

@@ -19,59 +19,46 @@ import com.sdll.antfooder.service.IFoodService;
 import com.sdll.antfooder.service.IMenuService;
 import com.sdll.antfooder.util.Conts;
 import com.sdll.antfooder.util.ExecResult;
-import com.sdll.antfooder.util.InformationTool;
 import com.sdll.antfooder.util.StringUtils;
 import com.sdll.antfooder.vo.PageConfig;
 import com.sdll.antfooder.vo.PageVo;
 
 @Controller
-@RequestMapping("/menu")
-public class MenuController {
-	
-	@Autowired
-	private IMenuService menuService;
+@RequestMapping("/food")
+public class FoodController {
 	
 	@Autowired
 	private IFoodService foodService;
+	
+	@Autowired
+	private IMenuService menuService;
 
-	@RequestMapping("/detailList")
-	public ModelAndView detailList(String menuId){
-		ModelAndView view = new ModelAndView("/detail");
+	@RequestMapping("/foodList")
+	public ModelAndView foodList(PageConfig page, Food food ,String menuid){
+		ModelAndView view = new ModelAndView("food/foodList");
+		food.setMenuId(new Menu(menuid));
+		PageVo<Food> foodList = foodService.listFoodByPage(food, page);
 		List<Menu> menuList = menuService.listMenu();
-		InformationTool.getInformation(view, menuList);
-		Menu menu = null;
-		List<Food> foodList = null;
-		if (StringUtils.isNotBlank(menuId)) {
-			menu = menuService.getMenuById(menuId);
-			foodList = foodService.listFoodByMenuId(menuId);
-		}
-		view.addObject("foodList", foodList);
-		view.addObject("menu", menu);
+		view.addObject("menuList", menuList);
+		view.addObject("page", foodList);
+		view.addObject("searchParam", food);
 		return view;
 	}
 	
-	@RequestMapping("/menuList")
-	public ModelAndView menuList(Menu menu ,PageConfig page){
-		ModelAndView view = new ModelAndView("menu/menuList");
-		PageVo<Menu> menuList = menuService.listMenuByPage(menu,page);
-		//List<Menu> menuList = menuService.listMenu();
-		view.addObject("menu", menu);
-		view.addObject("page", menuList);
-		return view;
-	}
-	
-	@RequestMapping("/toAddOrEditMenu")
-	public ModelAndView toAddOrEditMenu(){
-		ModelAndView view = new ModelAndView("menu/addOrEditMenu");
-		
+	@RequestMapping("/toAddOrEditFood")
+	public ModelAndView toAddOrEditFood(){
+		ModelAndView view = new ModelAndView("food/addOrEditFood");
+		List<Menu> menuList = menuService.listMenu();
+		view.addObject("menuList", menuList);
 		
 		return view;
 	}
 	
-	@RequestMapping("/addMenu")
+	@RequestMapping("/addFood")
 	@ResponseBody
-	public ExecResult addMenu(@RequestParam(value = "file", required = false)MultipartFile file,Menu menu,HttpSession session){
+	public ExecResult addFood(@RequestParam(value = "file", required = false)MultipartFile file,Food food , String menuid , HttpSession session){
 		ExecResult er = new ExecResult();
+		food.setMenuId(new Menu(menuid));
 		String path = session.getServletContext().getRealPath("resources/images");
 		String fileName=file.getOriginalFilename();
 		System.out.println("路径是："+path);
@@ -85,29 +72,29 @@ public class MenuController {
 			er.setMsg("照片上传失败");
 			return er;
 		}
-		menu.setMenuPhoto("resources/images/"+fileName);
-		int row = menuService.insertMenu(menu);
+		food.setFoodPhoto("resources/images/"+fileName);
+		int row = foodService.insertFood(food);
 		if (row == 0) {
-			er.setMsg("菜单上传失败");
+			er.setMsg("菜品上传失败");
 			return er;
 		}
-		er.setMsg("菜单上传成功");
+		er.setMsg("菜品上传成功");
 		er.setSuccess(true);
 		return er;
 	}
 	
-	@RequestMapping("/deleteMenu")
+	@RequestMapping("/deleteFood")
 	@ResponseBody
-	public ExecResult deleteMenu(String menuId){
+	public ExecResult deleteFood(String foodId){
 		ExecResult er = new ExecResult();
-		if (StringUtils.isBlank(menuId)) {
+		if (StringUtils.isBlank(foodId)) {
 			er.setMsg("删除失败，请刷新页面试试");
 			return er;
 		}
-		Menu menu = menuService.getMenuById(menuId);
-		menu.setMenuState(Conts.STATE_DELETE);
-		menuService.updateMenuBymenuId(menu);
-		er.setMsg("删除菜单成功");
+		Food food = foodService.getFoodByFoodId(foodId);
+		food.setFoodState(Conts.STATE_DELETE);
+		foodService.updateMenuByfoodId(food);
+		er.setMsg("删除菜品成功");
 		er.setSuccess(true);
 		return er;
 	}

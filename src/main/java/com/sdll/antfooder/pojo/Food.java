@@ -3,7 +3,7 @@ package com.sdll.antfooder.pojo;
 public class Food {
     private String foodId;
 
-    private String menuId;
+    private Menu menuId;
 
     private String foodName;
 
@@ -33,15 +33,15 @@ public class Food {
         this.foodId = foodId == null ? null : foodId.trim();
     }
 
-    public String getMenuId() {
-        return menuId;
-    }
+    public Menu getMenuId() {
+		return menuId;
+	}
 
-    public void setMenuId(String menuId) {
-        this.menuId = menuId == null ? null : menuId.trim();
-    }
+	public void setMenuId(Menu menuId) {
+		this.menuId = menuId;
+	}
 
-    public String getFoodName() {
+	public String getFoodName() {
         return foodName;
     }
 

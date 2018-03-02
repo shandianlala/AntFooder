@@ -11,8 +11,8 @@
             </button>
             <div class="nav_head">
                 <div class="logo">
-                    <a class="no_link" href="index.html">
-                        <img class="middle" src="${basePath }/resources/images/logo.png" height="24">
+                    <a class="no_link" href="${basePath }/">
+                        <img class="middle" src="${basePath }/resource/img/logo.png" height="24">
                     </a>
                 </div>
             </div>

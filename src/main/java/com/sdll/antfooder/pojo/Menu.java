@@ -16,6 +16,10 @@ public class Menu {
     public String getMenuId() {
         return menuId;
     }
+    
+    public Menu (){ }
+    
+    public Menu(String menuId){this.menuId = menuId;}
 
     public void setMenuId(String menuId) {
         this.menuId = menuId == null ? null : menuId.trim();

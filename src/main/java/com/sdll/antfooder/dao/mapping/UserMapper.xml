@@ -17,7 +17,7 @@
   	select
   	<include refid="Base_Column_List" />
   	from user
-  	where user_phone = #{userPhone,jdbcType=VARCHAR} and user_status = '1'
+  	where user_phone = #{userPhone,jdbcType=VARCHAR} and user_status != '0'
   </select>
   
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >

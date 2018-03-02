@@ -1,0 +1,73 @@
+
+.jquery-scrollbar-container{
+	position: relative;
+	overflow: hidden;
+}
+
+.jquery-scrollbar-content{
+	position: relative;
+}
+
+.jquery-scrollbar-track-x,
+.jquery-scrollbar-track-y,
+.jquery-scrollbar-thumb-x,
+.jquery-scrollbar-thumb-y{
+	position: absolute;
+	border-radius: 4px;
+	transition: background 0.5s;
+}
+
+.jquery-scrollbar-track-x,
+.jquery-scrollbar-track-y{
+	background: transparent;
+}
+
+.jquery-scrollbar-track-x:hover,
+.jquery-scrollbar-track-y:hover,
+.jquery-scrollbar-track-x.active,
+.jquery-scrollbar-track-y.active{
+	background: rgba(221, 221, 221, 1);
+}
+
+.jquery-scrollbar-track-x{
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 4px;
+}
+
+.jquery-scrollbar-track-y{
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 4px;
+}
+
+.jquery-scrollbar-thumb-x,
+.jquery-scrollbar-thumb-y{
+	background: rgba(0,0,0,0.2);
+}
+
+
+.jquery-scrollbar-track-x:hover .jquery-scrollbar-thumb-x,
+.jquery-scrollbar-track-y:hover .jquery-scrollbar-thumb-y,
+.jquery-scrollbar-track-x.active .jquery-scrollbar-thumb-x,
+.jquery-scrollbar-track-y.active .jquery-scrollbar-thumb-y{
+	background: rgba(0,0,0,0.6);
+}
+
+.jquery-scrollbar-thumb-x{
+	width: 0;
+	height: 4px;
+	bottom: 0;
+	left: 0;
+}
+
+.jquery-scrollbar-thumb-y{
+	height: 0;
+	width: 4px;
+	top: 0;
+	right: 0;
+}
+
+

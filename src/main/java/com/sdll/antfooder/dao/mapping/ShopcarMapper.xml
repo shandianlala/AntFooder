@@ -32,7 +32,7 @@
     select 
     <include refid="Base_Column_List" />
     from shopcar
-    where user_id = #{userId,jdbcType=CHAR} and food_id = #{foodId.foodId,jdbcType=CHAR} and food_status = 1
+    where user_id = #{userId,jdbcType=CHAR} and food_id = #{foodId.foodId,jdbcType=CHAR} 
   </select>
   
   <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
