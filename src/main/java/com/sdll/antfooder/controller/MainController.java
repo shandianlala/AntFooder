@@ -2,7 +2,6 @@ package com.sdll.antfooder.controller;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -21,20 +20,18 @@ import org.springframework.web.servlet.ModelAndView;
 import com.sdll.antfooder.pojo.Menu;
 import com.sdll.antfooder.pojo.User;
 import com.sdll.antfooder.service.IMenuService;
-import com.sdll.antfooder.service.IUserSercvice;
+import com.sdll.antfooder.service.IUserService;
 import com.sdll.antfooder.util.Conts;
 import com.sdll.antfooder.util.ExecResult;
 import com.sdll.antfooder.util.InformationTool;
 import com.sdll.antfooder.util.RandomValidateCodeGenerator;
 import com.sdll.antfooder.util.StringUtils;
 
-import sun.rmi.transport.proxy.HttpReceiveSocket;
-
 @Controller
 public class MainController {
 	
 	@Autowired
-	private IUserSercvice userService;
+	private IUserService userService;
 	
 	@Autowired
 	private IMenuService menuService;
