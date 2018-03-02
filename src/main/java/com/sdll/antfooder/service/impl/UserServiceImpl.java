@@ -7,10 +7,10 @@ import org.springframework.stereotype.Service;
 
 import com.sdll.antfooder.dao.UserMapper;
 import com.sdll.antfooder.pojo.User;
-import com.sdll.antfooder.service.IUserSercvice;
+import com.sdll.antfooder.service.IUserService;
 @Service
 @Transactional
-public class UserServiceImpl implements IUserSercvice {
+public class UserServiceImpl implements IUserService {
 
 	@Autowired
 	private UserMapper userMapper;
