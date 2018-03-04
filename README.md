@@ -1,7 +1,7 @@
 # AntFooder
 蚂蚁食客
 一个高仿真功夫外卖订餐的一个平台 的网站，
-采用的SpringMVC + Spring + Mybatis框架搭建
+采用的SpringMVC + Spring + Mybatis + shiro 框架
 
 ### 项目介绍：
 - **平台首页**
