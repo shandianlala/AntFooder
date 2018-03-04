@@ -42,11 +42,12 @@ public class MainController {
 	private IMenuService menuService;
 	
 	@RequestMapping(value={"","/main/toHome.do"})
-	public ModelAndView toIndex(HttpSession session, HttpServletRequest request){
+	public ModelAndView toIndex(HttpServletRequest request){
 		ModelAndView view = new ModelAndView("/index");
 		String ip  = request.getRemoteAddr();
 		String host = request.getRemoteHost();
 		System.out.println(ip +"-------"+host);
+		Session session = SecurityUtils.getSubject().getSession();
 		User user = (User) session.getAttribute(Conts.USER_SESSION_KEY);
 		if (user!=null&&"2".equals(user.getUserStatus())) {
 			// 1:普通用户  2：管理员

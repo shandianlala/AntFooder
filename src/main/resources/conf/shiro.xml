@@ -50,6 +50,8 @@
                 /validate/** = anon
                 /shopcar/** = authc
                 /logOut = anon
+                /food/** = authc
+                /menu/** = authc
                 /common/** = anon
                 /plugins/framework/** = anon
                 /plugins/login/** = anon
