@@ -11,6 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 //import org.apache.catalina.tribes.group.interceptors.TwoPhaseCommitInterceptor.MapEntry;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.AuthenticationException;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.session.Session;
+import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -71,7 +76,9 @@ public class MainController {
 		String key = RandomValidateCodeGenerator.randKey(4);
 		try {
 			Map.Entry<String, BufferedImage> randCode = new RandomValidateCodeGenerator().getRandCode(key);
-			session.setAttribute(Conts.VALIDATE_CODE_KEY, randCode.getKey());
+//			session.setAttribute(Conts.VALIDATE_CODE_KEY, randCode.getKey());
+			Subject currentUser = SecurityUtils.getSubject();
+			currentUser.getSession().setAttribute(Conts.VALIDATE_CODE_KEY, randCode.getKey());
 			ImageIO.write(randCode.getValue(), "JPEG", response.getOutputStream());
 		} catch (Exception e) {
 			System.out.println("生成验证码图片失败了!");
@@ -81,9 +88,11 @@ public class MainController {
 	
 	@RequestMapping("/userLogin")
 	@ResponseBody
-	public ExecResult userLogin(User user , HttpSession session){
+	public ExecResult userLogin(User user){
 		ExecResult er = new ExecResult();
-		User usertemp = null;
+//		User usertemp = null;
+		Subject currentUser = SecurityUtils.getSubject();
+		Session session = currentUser.getSession();
 		String validateCode = (String) session.getAttribute(Conts.VALIDATE_CODE_KEY);
 		if (!user.getValidateCode().equalsIgnoreCase(validateCode)) {
 			er.setMsg("验证码错误！");
@@ -93,24 +102,42 @@ public class MainController {
 			er.setMsg("登陆失败，请刷新页面试试");
 			return er;
 		}
-		usertemp = userService.userLogin(user.getUserPhone());
-		if (usertemp == null) {
-			er.setMsg("账户不存在！");
-			return er;
-		}
-		if (!user.getUserPassword().equals(usertemp.getUserPassword())) {
+//		usertemp = userService.userLogin(user.getUserPhone());
+//		if (usertemp == null) {
+//			er.setMsg("账户不存在！");
+//			return er;
+//		}
+//		if (!user.getUserPassword().equals(usertemp.getUserPassword())) {
+//			er.setMsg("账号或者密码错误！");
+//			return er;
+//		}
+//		session.setAttribute(Conts.USER_SESSION_KEY, usertemp);
+		try {
+
+			UsernamePasswordToken token = new UsernamePasswordToken(user.getUserPhone(), user.getUserPassword());
+			token.setRememberMe(true);
+
+			currentUser.login(token);
+			// 判断是否认证
+			if (currentUser.isAuthenticated()) {
+				User userSession = userService.userLogin(user.getUserPhone());
+				session.setAttribute(Conts.USER_SESSION_KEY, userSession);
+				er.setSuccess(true);
+				er.setMsg("登陆成功");
+			}
+		} catch (AuthenticationException e) {
+			e.printStackTrace();
 			er.setMsg("账号或者密码错误！");
-			return er;
 		}
-		session.setAttribute(Conts.USER_SESSION_KEY, usertemp);
-		er.setSuccess(true);
-		er.setMsg("登陆成功");
+
 		return er;
 	}
 	
 	@RequestMapping("/logOut")
-	public ModelAndView logOut(HttpSession session){
-		session.invalidate();
+	public ModelAndView logOut() {
+		Subject currentUser = SecurityUtils.getSubject();
+		currentUser.logout();
+//		session.invalidate();
 		ModelAndView view = new ModelAndView("/index");
 		List<Menu> menuList = menuService.listMenu();
 		InformationTool.getInformation(view, menuList);

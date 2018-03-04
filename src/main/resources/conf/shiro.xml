@@ -46,7 +46,10 @@
         </property>
         <property name="filterChainDefinitions"><!--authc  -->
             <value>
-                /resources/** = anon
+                /resource/** = anon
+                /validate/** = anon
+                /shopcar/** = authc
+                /logOut = anon
                 /common/** = anon
                 /plugins/framework/** = anon
                 /plugins/login/** = anon

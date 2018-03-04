@@ -20,6 +20,7 @@ public class CustomerRealm extends AuthorizingRealm {
     @Autowired
     IUserService userService;
 
+    //获取授权信息
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
         //Object object = this.getAvailablePrincipal(principals);
@@ -29,15 +30,17 @@ public class CustomerRealm extends AuthorizingRealm {
         return principal;
     }
 
+    //获取身份认证信息
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
         AuthenticationInfo athcInfo = null;
         UsernamePasswordToken athcToken = (UsernamePasswordToken) token;
         try {
-//            User user = userService.getUserByLoginName(athcToken.getUsername());
-//            if(null!=sysUser){  //验证是否存在用户
-//                athcInfo =  new SimpleAuthenticationInfo(sysUser.getLoginName(),sysUser.getLoginPwd(), getName());
-//            }
+            User user = userService.userLogin(athcToken.getUsername());
+            //验证是否存在用户
+            if (null != user) {
+                athcInfo =  new SimpleAuthenticationInfo(user.getUserPhone(), user.getUserPassword(), getName());
+            }
             return athcInfo;
         } catch (Exception ex) {
             throw new AuthenticationException(ex);

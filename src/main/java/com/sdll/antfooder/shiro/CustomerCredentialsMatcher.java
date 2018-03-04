@@ -14,7 +14,7 @@ import org.apache.shiro.authc.credential.SimpleCredentialsMatcher;
  */
 public class CustomerCredentialsMatcher extends SimpleCredentialsMatcher {
 
-
+    //证书匹配
     @Override
     public boolean doCredentialsMatch(AuthenticationToken token, AuthenticationInfo info) {
 
@@ -22,7 +22,8 @@ public class CustomerCredentialsMatcher extends SimpleCredentialsMatcher {
         String passwordFromAthcToken = String.valueOf(authcToken.getPassword());
         Object accountCredentials = null;
         try {
-            accountCredentials = MD5Util.crypt(getCredentials(info).toString());
+//            accountCredentials = MD5Util.crypt(getCredentials(info).toString());
+            accountCredentials = getCredentials(info).toString();
         } catch (Exception e) {
             return Boolean.FALSE.booleanValue();
         }
