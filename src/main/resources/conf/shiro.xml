@@ -51,6 +51,7 @@
                 /shopcar/** = authc
                 /logOut = anon
                 /food/** = authc
+                /menu/detailList/** = anon
                 /menu/** = authc
                 /common/** = anon
                 /plugins/framework/** = anon
